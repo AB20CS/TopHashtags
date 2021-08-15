@@ -1,12 +1,6 @@
 package twitter;
 
-/**
- * Driver for CSCB07 Assignment 2: Part 2
- * @author Anindro Bhattacharya
- *
- */
-
-public class Part2Driver {
+public class TopHashtagsDriver {
 
 	public static void main(String[] args) throws Exception {
 		TweetsFolder f = new TweetsFolder("Tweets2020");
