@@ -1,12 +1,6 @@
 package twitter;
 
-/**
- * Driver for CSCB07 Assignment 2: Part 1
- * @author Anindro Bhattacharya
- *
- */
-
-public class Part1Driver {
+public class Feed {
 
 	public static void main(String[] args) throws Exception {
 		User a = new User("a");
