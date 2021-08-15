@@ -8,12 +8,6 @@ import java.util.LinkedHashMap;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-/**
- * CSCB07 Assignment 2: Part 2
- * @author Anindro Bhattacharya
- *
- */
-
 public class TweetsFolder {
 	File directory;
 	
