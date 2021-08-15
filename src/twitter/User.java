@@ -4,14 +4,6 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-/**
- * CSCB07 Assignment 2: Part 1
- * @author Anindro Bhattacharya
- *
- * Design Pattern Used: Observer
- *
- */
-
 class Post {
 	User poster;
 	Date time;
