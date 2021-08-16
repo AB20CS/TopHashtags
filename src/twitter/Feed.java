@@ -1,22 +1,24 @@
 package twitter;
 
+// Driver
+
 public class Feed {
 
 	public static void main(String[] args) throws Exception {
-		User a = new User("a");
-		User b = new User("b");
-		User c = new User("c");
-		a.follow(c);
-		b.post("Hi");
-		a.follow(b);
+		User andy = new User("Andy");
+		User bob = new User("Bob");
+		User cathy = new User("Cathy");
+		andy.follow(cathy);
+		bob.post("Hi");
+		andy.follow(bob);
 		Thread.sleep(1000);
-		c.post("Hello");
+		cathy.post("Hello");
 		Thread.sleep(2000);
-		b.post("Hi again");
-		a.displayTweets();
+		bob.post("Hi again");
+		andy.displayTweets();
 		Thread.sleep(3000);
-		c.post("Hello again");
-		a.displayTweets();
+		cathy.post("Hello again");
+		andy.displayTweets();
 	}
 
 }
