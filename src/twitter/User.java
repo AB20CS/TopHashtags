@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
+// Post object represents a Tweet
 class Post {
 	User poster;
 	Date time;
@@ -35,6 +36,7 @@ class PostingControl {
 	}
 }
 
+// User object represents a registered Twitter user
 public class User {
 	String username;
 	HashSet<User> following;
